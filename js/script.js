@@ -31,6 +31,7 @@ const loop = setInterval(() => {
         clearInterval(loop);
 
         document.addEventListener('keydown', recarregarPagina);
+        document.addEventListener('touchstart', recarregarPagina);
 
     }
 
@@ -39,6 +40,7 @@ const loop = setInterval(() => {
 
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
 
 
 const recarregarPagina = () => {
